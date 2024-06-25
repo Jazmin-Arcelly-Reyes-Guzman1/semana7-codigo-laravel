@@ -5,7 +5,7 @@
     </tr>
     <tr>
         <th>Descripcion</th>
-        <td><input type="text" name="descripcion" value="{{ old('titulo', $servicio->descripcion)}}"></td>
+        <td><input type="text" name="descripcion" value="{{ old('descripcion', $servicio->descripcion)}}"></td>
     </tr>
     <tr>
         <td colspan="2" align="center"><button>{{$btnText}}</button></td>
